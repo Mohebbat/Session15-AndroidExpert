@@ -65,7 +65,7 @@ public class HomePresenter implements HomeContract.Presenter {
                         view.showBanners(banners);
                         view.setProgressIndicator(false);
                     }
-
+//
                     @Override
                     public void onError(Throwable e) {
                         view.setProgressIndicator(false);
